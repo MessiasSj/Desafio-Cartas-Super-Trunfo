@@ -6,23 +6,23 @@ Super Trunfo de Países: um sistema para cadastrar as cartas com informações s
 // inicio da função
 int main(){
 
-    // carta 1
+    // variaveis carta 1
     char estado1[20]; //Nome do Estado em char para aceitar strigs
     char codigo1[3];  // código da carta também char
-    char cidade1[20];  // Nome da cidade em char
+    char cidade1[20]; // Nome da cidade em char
     int populacao1;   // População em int por swe tratar de um valor inteiro
     float area1;      // Aréa em Km² no, em float por se tratar de um ponto flutuante
     float pib1;       // PIB Valor em reais, também em float
     int turisticos1;  // Npumero de Pontos turísticos
     
-    // Carta 2
-    char estado2[20];
-    char codigo2[3];
-    char cidade2[20];
-    int populacao2;
-    float area2;
-    float pib2;
-    int turisticos2;
+    // variaveis Carta 2
+    char estado2[20]; //Nome do Estado em char para aceitar strigs
+    char codigo2[3];  // código da carta também char
+    char cidade2[20]; // Nome da cidade em char 
+    int populacao2;   // População em int por swe tratar de um valor inteiro
+    float area2;      // Aréa em Km² no, em float por se tratar de um ponto flutuante  
+    float pib2;       // PIB Valor em reais, também em float
+    int turisticos2;  // Npumero de Pontos turísticos
 
 // Preenchimento dos dados da primeira carta
 
@@ -63,7 +63,7 @@ int main(){
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n",cidade1);
     printf("População: %d\n", populacao1);
-    printf("Área: %.2f Km²\n", area1);
+    printf("Área: %.3f Km²\n", area1);
     printf("PIB:R$%.2f\n", pib1);
     printf("Número de Pontos Turísticos: %d \n", turisticos1);
 
@@ -106,7 +106,7 @@ int main(){
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
-    printf("Área: %.2f Km²\n", area2);
+    printf("Área: %.3f Km²\n", area2);
     printf("PIB: R$%.2f\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", turisticos2);
 
