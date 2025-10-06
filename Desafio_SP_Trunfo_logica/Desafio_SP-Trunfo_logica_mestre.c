@@ -30,7 +30,7 @@ int main(){
     float pib_percapita2; // Pib per capita
     float SuperPoder2;    // Soma de população, área, PIB, número de pontos turísticos, PIB per capita e o inverso da densidade populaciona
 
-    int opcao;
+    int opcao1, opcao2;
 
 // Preenchimento dos dados da primeira carta
     printf("*** Vamos iniciar o Jogo***");
@@ -142,7 +142,7 @@ int main(){
 
     // exibir menu de escolha de comparação
 
-    printf("\nEscolha o atributo que você deseja comparar\n");
+    printf("\nEscolha o primeiro atributo que você deseja comparar\n");
     printf("1. População\n");
     printf("2. Área\n");
     printf("3. PIB\n");
@@ -150,7 +150,17 @@ int main(){
     printf("5. Densidade demográfica\n");
     printf("6. PIB per Capita\n");
     printf("7. Super Poder\n");
-    scanf("%d", &opcao);
+    scanf("%d", &opcao1);
+
+    printf("\nEscolha o segundo atributo que você deseja comparar\n");
+    printf("1. População\n");
+    printf("2. Área\n");
+    printf("3. PIB\n");
+    printf("4. Número de pontos turítiscos\n");
+    printf("5. Densidade demográfica\n");
+    printf("6. PIB per Capita\n");
+    printf("7. Super Poder\n");
+    scanf("%d", &opcao1);
 
     // executar comparação de cartas
 
